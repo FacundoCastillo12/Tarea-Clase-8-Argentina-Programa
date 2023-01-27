@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+	background: radial-gradient(#003, #000);
+	background-repeat:repeat
+}
+#formulario-edad, #formulario-salario{
+
+	max-width: 750px;
+	min-height: 500px;
+	padding: 5em;
+	text-align: center;
+	background: dodgerblue linear-gradient(22deg, aqua, dodgerblue, deeppink);
+	margin: auto;
+	border: 2px orange;
+	border-radius: 5px;
+	outline-width: 3px;
+	outline: thick ridge orange;
+}
+
+h1 {
+	color: orange;
+	font-family: Verdana, sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+    border: 0.08em solid;
+	max-width: 450px;
+	min-height: 80px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+#texto-ingreso {
+	color: rgb(255, 255, 255);
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px rgb(0, 4, 247);
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1;
+}
+
+input[type='number'],
+select {
+	width: 40%;
+	padding: 10px 15px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 16px;
+	
+}
+
+input[type='submit'] {
+	width: 10%;
+	background-color: #008cba;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#errores, #errores-salario, #pedido-reingresar-datos{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 5px rgb(255, 0, 0);
+}
+
+#resultado {
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 5px rgb(1, 0, 2);
+}
+#resultados-salario{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 5px rgb(1, 0, 2);
+}
+.texto-edades {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 5px rgb(1, 0, 2);
+
+}
+
+#reiniciar, #calcular, #pseudo-retroceder, #calcular-salario, #reinciar-salario, #pseudo-retroceder2 {
+	width: 15%;
+	background-color: #008cba;
+	color: white;
+	padding: 14px 25px;
+	margin: 6px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#inicio{
+	text-align: center;
+	margin: 100px;
+
+}
+
+#texto-descripcion, .texto-miembros{
+	color: rgb(255, 255, 255);
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+}
+h2{
+	color: rgb(255, 255, 255);
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px rgb(0, 4, 247);
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1;
+}
+#añadir-integrante, #quitar-integrante {
+	width: 20%;
+	background-color: #008cba;
+	color: white;
+	font-family: Verdana, sans-serif;
+	padding: 10px 20px;
+	margin: 6px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#boton-iniciar-tarea1, #boton-iniciar-tarea2{
+	width: 30%;
+	color: orange;
+	background-color: #333;
+	font-family: Verdana, sans-serif;
+	padding: 14px 20px;
+	margin: 10px;
+	border-radius: 4px;
+	font-size: 26px;
+	border: 0.08em solid;
+	cursor: pointer;
+	
+}
+#error-falta-miembro {
+	color: rgb(253, 252, 250);
+	font-size: 20px;
+	border: 3px solid red !important;
+	border-radius: 4px;
+
+}
+.error, #error {
+	width: 40%;
+	padding: 10px 15px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 3px solid red !important;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+.correcto {
+	border: 3px solid green;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+img {
+	width: 100%;
+	max-width: 30rem;
+	margin: 2rem;
+}
+
+.oculto {
+	display: none;
+}
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Clase 8 tarea 1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/index.css" />
+
+	</head>
+	<body>
+		<header>
+			<h1>Bienvenido!</h1>
+		</header>
+
+		<form id="formulario-edad" nombre="formulario-de-edad" class="oculto">
+			<h2></h2>
+			<div>
+				<p id='texto-ingreso'>Ingrese la cantidad de miembros del grupo familiar:</p>
+
+				<input type="number" id="cantidad-miembros"  nombre="integrante" />
+				<input name="submit" type="submit" id="ingresar-datos"></input>
+
+			</div>
+			<div id="edades">
+
+            </div>
+			<div>
+				<button type="submit" id="calcular" class="oculto">Calcular</button>
+			</div>
+			<div id="resultado" class="oculto">
+				<p class="texto-resultado">La edad mayor es: <strong id="edad-mayor" class="los-resultados"></strong></p>
+				<p class="texto-resultado">La menor edad es: <strong id="edad-menor" class="los-resultados"></strong></p>
+				<p class="texto-resultado">La edad promedio es: <strong id="edad-promedio" class="los-resultados"></strong></p>
+			</div>
+			<div>
+				<div>
+					<button type="button" id="reiniciar" >Reiniciar</button>
+				</div>
+				<div>
+					<button type="button" id="pseudo-retroceder">Retroceder</button>
+				</div>
+			</div>
+			
+			<div id="errores" name="error">
+				
+			</div>
+			<div id="pedido-ingresar-datos" class="oculto">Por favor vuelve a ingresar todos los datos de manera correcta.</div>
+            <div id="logo">
+                <img src="img/big-family.png" alt="Welcome to Muses Code JS">
+              </div>
+		</form>
+		<form id="formulario-salario" class="oculto">
+			<div id="texto-Formulario2">
+				<h2>Formulario</h2>
+				<p id="texto-descripcion"> Añade o quita miembros para calcular el salario mayor, menor, promedio, anual y anual promedio.</p>
+			</div>
+			<div>
+				<button type="submit" id="añadir-integrante">Añadir integrante</button> 
+				<button type="submit" id="quitar-integrante">Quitar integrante</button> 
+			</div>
+
+			<div id="miembros">
+		
+			</div>
+			<div>
+				<button type="submit" id="calcular-salario" class="oculto">Calcular</button>
+			</div>
+			<div id="resultados-salario" class="oculto">
+				<p>El mayor salario anual es: <strong id="mayor-ingreso-anual"></strong></p>
+				<p>El menor salario anual es: <strong id="menor-ingreso-anual"></strong></p>
+				<p>El salario anual promedio es: <strong id="promedio-ingreso-anual"></strong></p>
+				<p>El salario mensual promedio es: <strong id="ingreso-promedio-mensual"></strong></p>
+			</div>
+			<div>
+				<button type="reset" id="reinciar-salario">Reiniciar</button>
+			</div>
+			<div id="errores-salario">
+				<p id="error-falta-miembro" class="oculto">Debes añadir integrante.</p>
+
+			</div>
+			<div id="pedido-reingresar-datos" class="oculto">Por favor vuelve a ingresar todos los datos de manera correcta.</div>
+			<div>
+				<button type="button" id="pseudo-retroceder2">Retroceder</button>
+			</div>
+		</form>
+			<div id="inicio" class="">
+				<div>
+					<button type="submit" id="boton-iniciar-tarea1" class="boton-de-inicio">INICIAR FORMULARIO TAREA 1</button>
+				</div>
+				<div>
+					<button type="submit" id="boton-iniciar-tarea2" class="boton-de-inicio">INICIAR FORMULARIO TAREA 2</button>
+				</div>
+			</div>
+		<script type="text/javascript" src="js/menu.js"></script>
+		<script type="text/javascript" src="js/tarea1/tarea-clase-8-parte1.js"></script>
+		<script type="text/javascript" src="js/tarea1/validaciones-tarea1.js"></script>
+		<script type="text/javascript" src="js/tarea1/pruebas-tarea1.js"></script>
+		<script type="text/javascript" src="js/tarea2/tarea-clase-8-parte2.js"></script>
+		<script type="text/javascript" src="js/tarea2/validaciones-tarea2.js"></script>
+		<script type="text/javascript" src="js/tarea2/pruebas-tarea-2.js"></script>
+	</body>
+</html>
+
