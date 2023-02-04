@@ -1,0 +1,58 @@
+{
+
+  "name": "tarea-clase-8-argentina-programa",
+
+  "description": "Tarea de la clase 8 para el slack Argentina Programa",
+
+  "version": "1.0.0",
+
+  "main": "index.html",
+
+  "scripts": {
+
+    "empezar": "http-server",
+
+    "cypress-run": "cypress run",
+
+    "cypress-dev": "cypress open",
+
+    "test": "run-p start cypress-run",
+
+    "test-dev": "run-p start cypress-dev"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/FacundoCastillo12/Tarea-Clase-8-Argentina-Programa.git"
+
+  },
+
+  "author": "Facundo Castillo",
+
+  "license": "ISC",
+
+  "bugs": {
+
+    "url": "https://github.com/FacundoCastillo12/Tarea-Clase-8-Argentina-Programa/issues"
+
+  },
+
+  "dependencies": {
+
+    "bootstrap": "^5.2.3"
+
+  },
+
+  "devDependencies": {
+
+    "cypress": "^12.5.1"
+
+  },
+
+  "homepage": "https://github.com/FacundoCastillo12/Tarea-Clase-8-Argentina-Programa#readme"
+
+}
+
